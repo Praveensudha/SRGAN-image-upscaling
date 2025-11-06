@@ -1,0 +1,48 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# ===== Virtual Environments =====
+venv/
+env/
+.isr_env/
+isr_env/
+
+# ===== TensorFlow / ISR outputs =====
+checkpoints/
+weights/
+logs/
+results/
+models/
+saved_models/
+output/
+*.h5
+*.ckpt
+
+# ===== Datasets =====
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# ===== Node / Frontend =====
+node_modules/
+dist/
+build/
+.env
+.env.local
+package-lock.json
+
+# ===== IDEs & OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== Streamlit / Cache =====
+.streamlit/

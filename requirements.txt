@@ -1,0 +1,27 @@
+# Core dependencies - exact versions for fast installation
+numpy==1.24.3
+Pillow==10.0.0
+matplotlib==3.7.2
+
+# Web application framework
+streamlit==1.28.0
+
+# Deep learning framework - exact version to avoid backtracking
+# tensorflow-cpu==2.13.0
+
+# Image Super-Resolution package - install with --no-deps
+# Note: Install ISR separately: pip install ISR==2.2.0 --no-deps
+# Then: pip install imageio tqdm pyaml
+
+# Required dependencies for ISR
+h5py==3.9.0
+scipy
+
+# ISR dependencies (install manually after ISR)
+imageio
+tqdm
+pyaml
+
+# Typing extensions - must be < 4.6.0 for TensorFlow 2.13.0 compatibility
+# Note: ipython/exceptiongroup may show warnings but won't affect functionality
+typing-extensions==4.5.0

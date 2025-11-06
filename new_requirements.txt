@@ -1,0 +1,6 @@
+streamlit
+realesrgan
+torch
+torchvision
+numpy
+Pillow
